@@ -16,6 +16,7 @@ class EmailParser
       temp = temp.delete ","
       email = temp
     end
+    puts x
     return x
   end
 end
