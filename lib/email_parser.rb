@@ -11,7 +11,7 @@ class EmailParser
   def parse
     
     x = @emails.split(" ")
-    x.collect do |email|
+    x.each do |email|
       len = email.length-1
       if email[len] == ","
         newString = email[0..len-1]
