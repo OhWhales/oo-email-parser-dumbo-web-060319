@@ -5,4 +5,5 @@
 
 class EmailParser(str)
   x=str.split(", ")
+  puts x
 end
