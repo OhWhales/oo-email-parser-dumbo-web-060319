@@ -9,6 +9,7 @@ class EmailParser
     @emails = str
   end 
   def parse
+    count = 0 
     x=@emails.split(", ")
     return x
   end
