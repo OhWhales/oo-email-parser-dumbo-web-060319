@@ -6,7 +6,7 @@
 class EmailParser
   @@all = []
   def initialize(str)
-    
+    @emails = str
   end 
   def parse(str)
     x=str.split(", ")
