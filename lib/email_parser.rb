@@ -14,7 +14,7 @@ class EmailParser
     x.each do |email|
       len = email.length-1
       if email[len] == ","
-        newString = email.slice()
+        newString = email[0..len-1]
       end
     end
     puts x
