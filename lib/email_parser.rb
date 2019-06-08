@@ -12,7 +12,8 @@ class EmailParser
     
     x = @emails.split(" ")
     x.each do |email|
-      len = email.length 
+      len = email.length-1
+      
     end
     puts x
     return x
