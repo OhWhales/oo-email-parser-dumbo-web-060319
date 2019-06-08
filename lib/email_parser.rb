@@ -13,7 +13,7 @@ class EmailParser
     x = @emails.split(" ")
     x.each do |email|
       temp = email 
-      temp = temp.delete ","
+      temp = temp.delete(",")
       email = temp
     end
     puts x
