@@ -12,9 +12,7 @@ class EmailParser
     
     x = @emails.split(" ")
     x.each do |email|
-      temp = email 
-      temp = temp.delete_suffix(",")
-      email = temp
+      len = email.length 
     end
     puts x
     return x
