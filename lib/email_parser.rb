@@ -12,6 +12,7 @@ class EmailParser
     finalEmail=[]
     x = @@email 
     x.each do |email|
-      len = email.length 
+      len = email.length-1
+      
   end
 end
