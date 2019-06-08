@@ -13,6 +13,8 @@ class EmailParser
     x = @@email 
     x.each do |email|
       len = email.length-1
-      
+      if email[len] == ","
+        
+      end
   end
 end
