@@ -20,5 +20,6 @@ class EmailParser
         finalEmail.push(email)
       end
       puts finalEmail
+      return finalEmail
   end
 end
