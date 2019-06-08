@@ -19,5 +19,6 @@ class EmailParser
       else 
         finalEmail.push(email)
       end
+      puts finalEmail
   end
 end
