@@ -17,6 +17,7 @@ class EmailParser
         newstr = email[0..len-1]
         finalEmail.push(newstr)
       else 
+        finalEmail.push(email)
       end
   end
 end
