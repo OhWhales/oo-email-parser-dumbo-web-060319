@@ -9,13 +9,7 @@ class EmailParser
     @emails = str
   end 
   def parse
-    count = 0 
-    while (count < @@emails.size)
-      if count == ","
-        
-      end
-    end
-    x=@emails.split(", ")
-    return x
+    
+    
   end
 end
