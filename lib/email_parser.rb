@@ -15,6 +15,7 @@ class EmailParser
       len = email.length-1
       if email[len] == ","
         newstr = email[0..len-1]
+        finalEmail.push(newstr)
       else 
       end
   end
