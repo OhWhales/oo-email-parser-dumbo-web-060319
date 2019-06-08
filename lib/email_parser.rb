@@ -10,6 +10,9 @@ class EmailParser
   end 
   def parse
     count = 0 
+    while (count < @@emails.size)
+    
+    end
     x=@emails.split(", ")
     return x
   end
