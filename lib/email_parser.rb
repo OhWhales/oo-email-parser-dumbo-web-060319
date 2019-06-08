@@ -14,7 +14,7 @@ class EmailParser
     x.each do |email|
       len = email.length-1
       if email[len] == ","
-        
+        newstr = email[0..len-1]
       else 
       end
   end
