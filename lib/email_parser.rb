@@ -15,6 +15,7 @@ class EmailParser
       len = email.length-1
       if email[len] == ","
         
+      else 
       end
   end
 end
