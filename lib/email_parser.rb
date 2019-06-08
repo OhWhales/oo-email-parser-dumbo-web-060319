@@ -4,7 +4,9 @@
 # or whitespace (' ').
 
 class EmailParser
-  
+  @@all = []
+  def initialize(str)
+    
   def parse(str)
     x=str.split(", ")
     puts x
