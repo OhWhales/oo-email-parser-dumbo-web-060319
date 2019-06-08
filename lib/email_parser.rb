@@ -9,7 +9,7 @@ class EmailParser
     @emails = str
   end 
   def parse
-    
+    finalEmail=[]
     x = @emails.split(" ")
     x.each do |email|
       len = email.length-1
