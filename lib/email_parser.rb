@@ -20,8 +20,6 @@ class EmailParser
         finalEmail.push(email)
       end
     end
-      final = finalEmail.uniq!
-      puts final 
-      return final
+    return finalEmail
   end
 end
