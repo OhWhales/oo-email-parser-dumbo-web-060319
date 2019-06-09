@@ -21,7 +21,7 @@ class EmailParser
       end
     end
       final = finalEmail.uniq!
-      puts 
-      return 
+      puts final 
+      return final
   end
 end
