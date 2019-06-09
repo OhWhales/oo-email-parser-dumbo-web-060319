@@ -22,6 +22,6 @@ class EmailParser
     end
     final = finalEmail.uniq
     puts final
-    return finalEmail
+    return final
   end
 end
